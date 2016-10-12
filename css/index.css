@@ -1,4 +1,4 @@
-html,body{
+﻿html,body{
     height: 100%;
 }
 .main{
@@ -118,7 +118,7 @@ html,body{
 .slide2 img:nth-child(8) {
     width: 4.06rem;
     height: 1.80rem;
-   bottom: 2.50rem;
+  top: 7.50rem;
    right: 0rem;
 }
 .slide2 span {
