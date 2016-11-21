@@ -162,6 +162,8 @@
     var mySwiper = new Swiper(".swiper-container",{
         direction : "vertical",
         loop:true,
+        speed:1500,
+        autoplay:2500,
         onSlideChangeEnd :function(swiper){
             var slideAry = swiper.slides; /*所有的滑块*/
             var trueSlideNum = slideAry.length-2;/*真实的滑块的个数*/
